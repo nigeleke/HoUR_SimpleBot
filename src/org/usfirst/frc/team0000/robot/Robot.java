@@ -79,6 +79,13 @@ public class Robot extends IterativeRobot {
 	}
 
 	/**
+	 * This function is called at the start of the teleop section.
+	 */
+	@Override
+	public void teleopInit() {
+	}
+	
+	/**
 	 * This function is called periodically during operator control.
 	 */
 	@Override
